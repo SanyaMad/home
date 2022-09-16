@@ -82,6 +82,10 @@ html {
   padding-bottom: 20px;
 }
 
+.header__choice {
+  background: #000;
+}
+
 .main {
   background: url("../img/main-bg.jpg") no-repeat center/cover;
   padding-bottom: 400px;
@@ -217,7 +221,7 @@ html {
 
 .find__button {
   margin: auto;
-  padding: 5px 15px;
+  padding: 5px 45px;
   width: 150px;
   margin-top: 25px;
   border: none;
@@ -225,6 +229,7 @@ html {
   border-radius: 15px;
   color: #000;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .find__img {
@@ -330,5 +335,60 @@ html {
 
 .footer__number {
   color: rgba(155, 155, 155, 0.7);
+}
+
+.choice__title {
+  color: #efefef;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.choice__secondTitle {
+  color: #efefef;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+
+.choice__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice__info--text {
+  margin-left: 50px;
+  color: #efefef;
+  margin-top: 75px;
+}
+
+.choice__info--text:last-child {
+  margin-top: 25px;
+}
+
+.choice__text {
+  margin-bottom: 25px;
+}
+
+.choice__text--price {
+  color: #a1a100;
+  margin-bottom: 50px;
+}
+
+.choice__content {
+  margin-bottom: 200px;
+}
+
+.choice__button {
+  margin: auto;
+  padding: 5px 45px;
+  width: 150px;
+  margin-top: 50px;
+  border: none;
+  background: #efefef;
+  border-radius: 15px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
